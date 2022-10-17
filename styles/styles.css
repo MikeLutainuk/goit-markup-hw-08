@@ -242,11 +242,7 @@
     transform-origin: 0px 0px;
 }
 
-svg:not(:root) {
-  overflow: hidden;
-  overflow-x: hidden;
-  overflow-y: hidden;
-}
+
 
 
 .icon
