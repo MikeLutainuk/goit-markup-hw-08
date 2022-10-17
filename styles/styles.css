@@ -237,11 +237,12 @@
 }
 .icon-mail 
 {width: 10px;
+  margin-left: 10px;
 
 }
 
 .icon-mail
-{height: 12;}
+{height: 12px;margin-left: 10px;}
 
 
 .icon
