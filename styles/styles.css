@@ -235,15 +235,18 @@
   :not(svg) {
     transform-origin: 0px 0px;
 }
-.icon-mail 
+.icon-tel
 {width: 10px;
+  height: 16px;
   margin-left: 10px;
-
+  color: var(--color-hover);
 }
 
 .icon-mail
-{height: 12px; margin-left: 10px;}
-
+{height: 12px; 
+  width: 10px;
+  margin-left: 10px;
+  color: var(--color-hover);}
 
 .icon
 {
