@@ -178,7 +178,7 @@
 .contacts-item 
 {display: flex;
   align-items: center;
-  color: currentColor; color: var(--color-hover);}
+  color: currentColor;}
 
   .mail::before {
     width: 16px;
@@ -206,8 +206,8 @@
     }
      
 
-  .nav-link:hover,
-  .nav-link:focus
+  .nav-link.icon-tel.icon-mail:hover,
+  .nav-link.icon-tel.icon-mail:focus
    {
     color: var(--color-hover);
   }
