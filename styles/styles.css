@@ -180,7 +180,13 @@
   align-items: center;
   color: currentColor;}
 
-  
+  .mail::before {
+    width: 16px;
+    height: 12px;
+    background-image: url('../img/mail.svg');
+    
+}
+
 
 
   .contacts {
@@ -235,10 +241,7 @@
   :not(svg) {
     transform-origin: 0px 0px;
 }
-.icon-mail
-{
-  
-}
+
 
 
 
