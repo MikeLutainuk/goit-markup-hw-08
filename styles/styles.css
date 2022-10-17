@@ -247,10 +247,8 @@ svg:not(:root) {
   overflow-x: hidden;
   overflow-y: hidden;
 }
-.icon-mail
-{
-  padding-right: 10px;
-}
+
+
 .icon
 {
   width: 70px; height: 70px;}
