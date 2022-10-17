@@ -176,7 +176,7 @@
     color: var(--color-hover);
   }
 .contacts-item 
-{
+{display: flex;
   align-items: center;
   color: currentColor;}
 
