@@ -176,7 +176,7 @@
     color: var(--color-hover);
   }
 .contacts-item 
-{display: flex;
+{
   align-items: center;
   color: currentColor;}
 
@@ -237,14 +237,14 @@
 }
 .icon-tel
 {width: 10px;
-  height: 16px;
+  
   
   color: var(--color-hover);
 }
 
 .icon-mail
 {height: 12px; 
-  width: 16px;
+  
   
   color: var(--color-hover);}
 
