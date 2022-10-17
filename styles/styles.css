@@ -238,14 +238,14 @@
 .icon-tel
 {width: 10px;
   height: 16px;
-  margin-left: 10px;
+  
   color: var(--color-hover);
 }
 
 .icon-mail
 {height: 12px; 
-  width: 10px;
-  margin-left: 10px;
+  width: 16px;
+  
   color: var(--color-hover);}
 
 .icon
