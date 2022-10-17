@@ -206,8 +206,8 @@
     }
      
 
-  .nav-link.icon-tel.icon-mail:hover,
-  .nav-link.icon-tel.icon-mail:focus
+  .nav-link:hover,
+  .nav-link:focus
    {
     color: var(--color-hover);
   }
@@ -241,7 +241,8 @@
   :not(svg) {
     transform-origin: 0px 0px;
 }
-
+.icon-tel .icon-mail
+{fill: var(--color-hover) ;}
 
 
 
