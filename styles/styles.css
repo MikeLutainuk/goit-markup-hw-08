@@ -172,13 +172,23 @@
   }
   
   .contacts-link:hover,
-  .contacts-link:focus
+  .contacts-item:hover
    {
     color: var(--color-hover);
+    fill: var(--color-hover);
   }
+  .contacts-link:focus,
+  .contacts-item:focus
+   {
+    color: var(--color-hover);
+    fill: var(--color-hover);
+  }
+
+
+
+
 .contacts-item 
 {display: flex;
-  
   align-items: center;
   color: currentColor;}
 
