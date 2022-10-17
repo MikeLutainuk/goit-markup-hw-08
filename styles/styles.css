@@ -176,7 +176,7 @@
     color: var(--color-hover);
   }
 .contacts-item 
-{display: flex;
+{
   align-items: center;
   color: currentColor;}
 
@@ -237,7 +237,7 @@
 }
 .icon-mail .icon-tel
 {
-padding-left: 10px;
+right-left: 10px;
 }
 
 
