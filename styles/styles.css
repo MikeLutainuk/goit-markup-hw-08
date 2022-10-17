@@ -178,7 +178,7 @@
 .contacts-item 
 {display: flex;
   align-items: center;
-  color: currentColor;}
+  color: currentColor; color: var(--color-hover);}
 
   .mail::before {
     width: 16px;
