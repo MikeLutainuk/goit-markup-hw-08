@@ -178,16 +178,11 @@
   }
 .contacts-item 
 {display: flex;
-  gap: 10px;
+  
   align-items: center;
   color: currentColor;}
 
-  .mail::before {
-    width: 16px;
-    height: 12px;
-    background-image: url('../img/mail.svg');
-    
-}
+
 
 
 
@@ -243,11 +238,19 @@
   :not(svg) {
     transform-origin: 0px 0px;
 }
-.icon-tel .icon-mail
-{fill: var(--color-hover) ;
-padding-left: 10px;
-fill: var(--secondary-text-color);
+
+.icon-cont
+{
+  height: 16px;
+  color: var(--color-text);
 }
+.tel
+{width: 10px;}
+.mail {
+  height: 12px;}
+
+
+
 
 
 
