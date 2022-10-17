@@ -235,9 +235,9 @@
   :not(svg) {
     transform-origin: 0px 0px;
 }
-.icon-mail
+.icon-mail .icon-tel
 {
-  
+margin-left: 10px;
 }
 
 
