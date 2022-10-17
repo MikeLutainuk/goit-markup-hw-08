@@ -235,11 +235,13 @@
   :not(svg) {
     transform-origin: 0px 0px;
 }
-.icon-mail .icon-tel
-{
+.icon-mail 
+{width: 10px;
 
 }
 
+.icon-mail
+{height: 12;}
 
 
 .icon
