@@ -378,6 +378,33 @@ margin-bottom: 50px;
     padding-bottom: 30px;
    color: var(--color-text);
   }
+
+
+  .social {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;}
+
+  .item
+  {
+    width: 270px;
+    display: list-item;
+  }
+  .social-link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    color: var(--invert-text-color);
+    fill: var(--background-content);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
   /* GALERY */
 
 .filter-list
