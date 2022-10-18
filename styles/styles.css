@@ -390,7 +390,7 @@ margin-bottom: 50px;
 
   
   .item
-  { fill: var(--color-text #757575);
+  { 
   }
   .social-link {
     display: flex;
@@ -400,23 +400,36 @@ margin-bottom: 50px;
     justify-content: center;
     border-radius: 50%;
     cursor: pointer;
-   
+   fill: var(--color-text #757575);
    color: var(--color-hero #fff);
   }
 
-  
+
   
   .linkfoc:focus
   {
     fill: var(--color-hover #2196f3);
     color: var(--color-hover #2196f3);
     outline: none;
+    
+    
   }
   .linkfoc:hover
   {
     fill: var(--color-hover #2196f3);
     color: var(--color-hover #2196f3);
   }
+
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--color-hover #2196f3);
+  fill: var(--color-hero #fff);
+  outline: none;
+}
+.social-icon:hover,
+.social-icon:focus {
+  background-color: var(--color-hover #2196f3);
+  fill: var(--color-hero #fff);}
 
   /* GALERY */
 
