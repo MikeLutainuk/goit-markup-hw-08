@@ -400,8 +400,15 @@ margin-bottom: 50px;
     justify-content: center;
     border-radius: 50%;
     cursor: pointer;
-   fill: var(--background-content #AFB1B8);
+   fill: var(--color-text #757575);
    color: var(--color-hero #fff);
+  }
+
+  .linkfoc:hover
+  .linkfok:focus
+  {
+    fill: var(--color-hover #2196f3);
+    color: var(--color-hover #2196f3);
   }
 
 
