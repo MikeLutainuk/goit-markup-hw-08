@@ -404,7 +404,12 @@ margin-bottom: 50px;
    color: var(--color-hero #fff);
   }
 
- 
+  .linkfoc{
+  text-decoration: none;
+  text-decoration-line: none;
+  text-decoration-style: initial;
+  text-decoration-color: initial;}
+  
   .linkfoc:focus
   {
     fill: var(--color-hover #2196f3);
