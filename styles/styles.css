@@ -428,7 +428,10 @@ margin-bottom: 50px;
   fill: var(--color-hero #fff);
   outline: none;
 }
-
+.social-icon:hover,
+.social-icon:focus {
+  background-color: var(--color-hover #2196f3);
+  fill: var(--color-hero #fff);}
 
   /* GALERY */
 
