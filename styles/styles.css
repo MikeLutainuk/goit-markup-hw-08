@@ -386,7 +386,9 @@ margin-bottom: 50px;
     flex-wrap: nowrap;
     justify-content: space-between;
     margin-left: 30px;
-    margin-right: 30px;}
+    margin-right: 30px;
+  margin-top: 16px;
+margin-bottom: 30px;}
   
   .social-icon
   {
