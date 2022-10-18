@@ -404,13 +404,18 @@ margin-bottom: 50px;
    color: var(--color-hero #fff);
   }
 
+ 
+  .linkfoc:focus
+  {
+    fill: var(--color-hover #2196f3);
+    color: var(--color-hover #2196f3);
+    outline: none;
+  }
   .linkfoc:hover
-  .linkfok:focus
   {
     fill: var(--color-hover #2196f3);
     color: var(--color-hover #2196f3);
   }
-
 
 .social-link:hover,
 .social-link:focus {
