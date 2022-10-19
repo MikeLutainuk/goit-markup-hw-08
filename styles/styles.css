@@ -409,18 +409,25 @@ margin-bottom: 50px;
     cursor: pointer;
    fill: var(--color-text #757575);
    color: var(--color-hero #fff);
+   background-color: transparent;
   }
 
-
+  .social-link:hover {
+    background-color: blue;
+  }
   
+  .social
+
   .linkfoc:focus
   {
     fill: var(--color-hover #2196f3);
     color: var(--color-hover #2196f3);
-    outline: none;
-    
-    
-  }
+    outline: none;  }
+
+    .kipi
+    {
+      border-radius: ;
+    }
   .linkfoc:hover
   {
     fill: var(--color-hover #2196f3);
