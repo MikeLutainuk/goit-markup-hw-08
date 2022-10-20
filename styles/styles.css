@@ -69,7 +69,7 @@
 }
 
   .main-title
-  {   font-weight: 900;
+  {   font-weight: 700;
     font-size: 44px;
     line-height: 60px;
     letter-spacing: 0.06em;
@@ -167,34 +167,33 @@
   }
 
   .contacts-link {
-    color: var(--color-heading);
     letter-spacing: 0.02em;
     color: var(--color-text);
   }
+   
+  .contacts-link:hover,
+  .contacts-link:focus
+  {color: var(--color-hover);}
   
-  .contacts-link:hover, 
-  .contacts-item:hover 
-   {
-    color: var(--color-hover);
-    fill: var(--color-hover);
-  }
-  .contacts-link:focus,
-  .contacts-item:focus 
-   {
-    color: var(--color-hover);
-    fill: var(--color-hover);
-  }
+  .contacts-link:hover .icon-cont,
+  .contacts-link:focus .icon-cont
+  {fill: var(--color-hover);}
 
 
-
-.contacts-item 
-{display: flex;
+.contacts-link{
+  display: flex;
   align-items: center;
-  color: currentColor;}
+  justify-content: space-between;
+  text-decoration: none;
+ 
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.14;
+}
 
-
-
-
+.icon-cont 
+  {margin-right: 10px;
+ fill:var(--color-text) }
 
   .contacts {
     padding-top: 13px;
@@ -233,7 +232,8 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border: 1px solid var(--color-hover);
     border-radius: 4px;
-  margin-top: 30px;}
+  margin-top: 30px;
+  font-weight: 700;}
 
   .button:hover {
     background: var(--color-hover-hero-btn);
@@ -249,8 +249,7 @@
     transform-origin: 0px 0px;
 }
 
-.icon-cont
-{margin-right: 10px;}
+
 
 .icon
 {width: 70px; height: 70px;}
@@ -398,10 +397,11 @@ margin-bottom: 50px;
 
   .social-link:hover {
     background-color: var(--color-hover);
-  }
+    border-color: var(--color-hover);}
+  
   .social-link:hover .social-icon {
     fill: whitesmoke }
-
+    
   
 
   /* regular customers */
@@ -502,8 +502,14 @@ margin-bottom: 50px;
 
   .galery-item {
     border: 1px solid var(--color-border-secondary); 
-    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.12), 0px 0px 1px rgba(0, 0, 0, 0.14),
+    }
+
+    .galery-item:hover,
+    .galery-item:focus
+    { 
+      box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.12), 0px 0px 1px rgba(0, 0, 0, 0.14),
     0px 1px 1px rgba(0, 0, 0, 0.2);}
+    
 
   .galery-title {
     color: var(--color-heading);
