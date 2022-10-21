@@ -61,11 +61,7 @@
     height: 600px;
     margin-left: auto;
     margin-right: auto;
-  
-
-
-
-
+    
 }
 
   .main-title
@@ -394,13 +390,13 @@ margin-bottom: 50px;
     cursor: pointer;
    background-color: transparent;
   }
-
+  
   .social-link:hover {
     background-color: var(--color-hover);
     border-color: var(--color-hover);}
   
   .social-link:hover .social-icon {
-    fill: whitesmoke }
+    fill: whitesmoke; }
     
   
 
@@ -440,8 +436,7 @@ margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
-  padding-right: 15px;
-  }
+  padding-right: 15px; }
 
   .customer-link:hover,
 .customer-link:focus {
