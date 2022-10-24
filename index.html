@@ -26,7 +26,7 @@
             </a>
             <nav class="nav">
             <ul class="nav-list">
-                <li class="nav-item"><a href="./index.html" class="nav-link">Студія</a></li>
+                <li class="nav-item"><a class="nav-link current" href="./index.html" >Студія</a></li>
                 <li class="nav-item"><a href="./portfolio.html" class="nav-link">Портфоліо</a></li>
                 <li class="nav-item"><a href="" class="nav-link">Контакти</a></li>
             </ul>
@@ -54,6 +54,7 @@
            </div>
  </header>
  <main>
+            <!-- титулка -->
                     <section class="main1">
                         <div class="container ">
                        <h1 class="main-title"> 
@@ -62,9 +63,21 @@
                     
                     
                     </h1>
-            <button class="button" type="button">Замовити послугу</button>
+            <button class="button" type="button" data-modal-open>Замовити послугу</button>
             </div>
                     </section>
+               <!-- modal -->
+
+              <div class="backdrop is-hidden" data-modal>
+              <div class="modal">
+             <button class="modal-button" type="button" data-modal-close>
+                    <svg class="modal-cross">
+                     <use href="./img/icons.svg#icon-cross"></use>
+                    </svg>
+              </button>
+              </div>
+              </div>
+
                         <section class="benefits ">
             <!-- Переваги-->
             <div class="container ">
@@ -114,14 +127,20 @@
         <section class="work">
             <div class="container">
             <h2 class="title1">  Чим ми займаємося   </h2> 
-            <ul class="works ">
-         <li class="work-item"><img src="./img/box-1.jpg" alt="планшет, клавіатура, процесс розробки"
-                  class="work-img" width="370"></li>
+     <ul class="works ">
+        <li class="work-item"><img src="./img/box-1.jpg" alt="планшет, клавіатура, процесс розробки"
+                   width="370">
+                <h3 class="work-img">ДЕСКТОПНІ ДОДАТКИ</h3>
+              </li>
          <li class="work-item"><img src="./img/box-2.jpg" alt="планшет, телефон, процесс розробки"
-                 class="work-img" width="370"></li>
-        <li class="work-item"><img src="./img/box-3.jpg" alt="планшет, телефон, процесс розробки"
-      class="work-img" width="370"></li>
-            </ul>
+                  width="370">
+                  <h3 class="work-img">МОБІЛЬНІ ДОДАТКИ</h3> 
+               </li>
+         <li class="work-item"><img src="./img/box-3.jpg" alt="планшет, телефон, процесс розробки"
+                   width="370">
+           <h3 class="work-img">ДИЗАЙНЕРСЬКІ РІШЕННЯ</h3>
+               </li>
+     </ul>
             <div>
         </section>
         <!--Команда-->
