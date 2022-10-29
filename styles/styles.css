@@ -274,7 +274,7 @@
 
 
 .backdrop {
-  position: fixed;  /* показує сторінку затіняючи задню */ 
+  position: fixed;  /* показує сторінку затіняючи фон */ 
   z-index: 2;
 
   /* центрування верх низ */
@@ -531,7 +531,7 @@ margin-bottom: 50px;
    background-color: transparent;
   }
   
-  .social-link:hover {
+  .social-link:hover, .social-link:focus {
     background-color: var(--color-hover);
     border-color: var(--color-hover);}
   
