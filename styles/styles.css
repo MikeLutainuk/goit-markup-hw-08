@@ -29,6 +29,7 @@
   
   body {
     color: var(--color-heading);
+    
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -135,7 +136,7 @@
   
 
 /* лінія */
-      .current::after {
+       .current::after {
         content: '';
         position: absolute;
         display: block;
@@ -145,7 +146,7 @@
         background-color: #2196F3;
         border-radius: 2px;
       }
-        .current {
+        .nav-list .current {
          color: var(--color-hover)}
 
          .nav-item {
@@ -156,22 +157,31 @@
         display: block;
         padding-top: 32px;
         padding-bottom: 32px; 
+       
         }
         .nav-link:hover, .nav-link:focus
          { 
-          color: var(--color-hover);  }
+          color: var(--color-hover);
+         }
 
-         
 
+         .nav-list .nav-link:hover,
+         .nav-list .nav-link:focus
+         {
+          color: var(--color-hover);
+          outline: none;
+         }
+        
   .header-span {
     color: var(--color-logo); }
  
     .nav-link  {
+       color:#212121;  /*  задав колір та ховер з фокусом, але чомусь надпис незалишається синім при натисканні. */ 
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
-color:#000;
+
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
@@ -630,7 +640,9 @@ margin-bottom: 50px;
     border-radius: 4px;
     padding: 6px 22px;
 
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
    
 
@@ -657,13 +669,6 @@ margin-bottom: 50px;
 
     }
 
-  .galery-item {
-   
-    background-color: var(--color-hero);
-    }
-
-
-
     .galery-item:hover,
     .galery-item:focus
     { 
@@ -678,9 +683,9 @@ margin-bottom: 50px;
       overflow: hidden;
   }
 
-.galery-item:hover {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
-    
+.galery-item:hover, .galery-item:focus {
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);   
+    border-color: #757575;
 }
 
     .project-link {
