@@ -307,8 +307,8 @@
 
   background-color: var(--overlay-color);
   opacity: 1;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transform: scale(1.0);
+   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform:   scale(1.0);
 }
 
 
@@ -318,6 +318,7 @@
  {
    opacity: 0;   /* показати  1, забрати 0 */
   pointer-events: none; 
+  
 }
 
 
@@ -326,7 +327,7 @@
   position: absolute;  
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%) scale(1.0);  
+  transform: translate(-50%, -50%) scale(1);  
 
   width: 528px;
   height: 581px;
@@ -335,12 +336,19 @@
 
   background-color: var(--color-hero);
   border-radius: 4px;
-overflow: hidden;
-  
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1); 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
   0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);}
 
+
+.backdrop.is-hidden .modal
+{
+  transform: translate(-50%, -50%) scale(0.9);
+  
+}
+
+ 
 .modal-button {
     position: absolute;
     display: flex;
