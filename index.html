@@ -70,16 +70,73 @@
 
               <div class="backdrop is-hidden" data-modal>
               <div class="modal" >
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, corporis aperiam
-                  nostrum autem dolorem eius, vitae perferendis qui esse, ipsa explicabo iure numquam
-                  veniam architecto modi ullam ut quisquam odio!
-                </p>
+                
              <button class="modal-button" type="button" data-modal-close>
                     <svg class="modal-cross">
                      <use href="./img/icons.svg#icon-cross"></use>
                     </svg>
               </button>
+             
+              <form class="modal-form" name="modal-form" autocomplete="on">
+                <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
+    
+                <label class="new-field-box">
+                  <span class="new-field-title">Ім'я</span>
+                  <div class="new-icon-box">
+                    <input
+                       class="new-field"
+                       type="text"
+                       name="user-name"
+                        id="user-name"
+                      autofocus
+                      required
+                    />
+                   <svg class="new-field-icon">
+                      <use href="./img/icons.svg#icon-human" width="18"></use>
+                    </svg>
+                </div>
+                </label>
+    
+                <label class="new-field-box">
+                   <span class="new-field-title">Телефон</span>
+                   <div class="new-icon-box">
+                    <input class="new-field" type="tel" name="user-phone" id="user-phone" required />
+                    <svg class="new-field-icon">
+                       <use href="./img/icons.svg#icon-phone" width="18"></use>
+                    </svg>
+                  </div>
+                </label>
+    
+                  <label class="new-field-box">
+                  <span class="new-field-title">Пошта</span>
+                   <div class="new-icon-box">
+                    <input class="new-field" type="email" name="user-email" id="user-email" required />
+                     <svg class="new-field-icon">
+                      <use href="./img/icons.svg#icon-letter" width="18"></use>
+                    </svg>
+                   </div>
+                </label>
+    
+                <label class="">
+                   <span class="new-field-title"> Коментар </span>
+                   <textarea
+                    class="new-field comment"
+                    placeholder="Введіть текст"
+                     id="comment"
+                    required
+                  ></textarea>
+                </label>
+    
+                 <label class="agreement">
+                  <input class="checkbox" type="checkbox" name="agreement" id="agreement" />
+                  <span class="checkbox-icon"></span>
+                  <span class="agreement-text">
+                       Погоджуюсь з розсилкою і приймаю  <a class="agreement-link"  href="">Умови договору</a></span>
+                </label>
+    
+                <button class="button form-button" type="submit" width="200">Відправити</button>
+              </form>
+
               </div>
               </div>
 
