@@ -83,13 +83,7 @@
                 <label class="new-field-box">
                   <span class="new-field-title">Ім'я</span>
                   <div class="new-icon-box">
-                    <input
-                       class="new-field"
-                       type="text"
-                       name="user-name"
-                        id="user-name"
-                      autofocus
-                      required
+                    <input class="new-field" type="text" name="user-name" id="user-name" autofocus required
                     />
                    <svg class="new-field-icon">
                       <use href="./img/icons.svg#icon-human" width="18"></use>
@@ -119,11 +113,7 @@
     
                 <label class="">
                    <span class="new-field-title"> Коментар </span>
-                   <textarea
-                    class="new-field comment"
-                    placeholder="Введіть текст"
-                     id="comment"
-                    required
+                   <textarea class="new-field comment"   placeholder="Введіть текст"   id="comment"   required
                   ></textarea>
                 </label>
     
@@ -492,6 +482,19 @@
           </li>
         </ul>
       </div>
+        <div class="subscription">
+         <h3 class="social-networks-title">Підпишіться на розсилку</h3>
+         <div class="subscribe-panel">
+           <label>
+            <input
+                class="subscribe-mail"  type="email"  name="subscribe-email"  placeholder="E-mail" />
+          </label>
+          <button class="subscribe-button" type="submit">Підписатися <svg class="subscribe-icon">
+              <use href="./img/icons.svg#icon-paper-plane" width="24" height="24"></use>
+            </svg>
+           </button>
+         </div>
+        </div>
     </div>
 </footer>
 <script src="./js/modal.js"></script>
