@@ -1,0 +1,36 @@
+body {
+    color: $color-heading;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.03em;}
+
+   
+  h1,
+  h2,
+  h3,
+  h4,
+  li,
+  ul,
+  p,
+  label,
+input,
+textarea
+   {
+    padding: 0;
+    margin: 0;}
+    
+  .list {
+      list-style: none;}
+
+    .img {
+      display: block;
+     }
+  
+     a {
+      text-decoration: none;
+    }
+    ul {
+      list-style: none;
+      
+    }

@@ -5,7 +5,7 @@
                 <meta charset="UTF-8">
                 <meta http-equiv="X-UA-Compatible" content="IE=edge">
                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+                      
                        <link rel="preconnect" href="https://fonts.googleapis.com">
                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
                        <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,16 +13,19 @@
                    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
                      
                    
-                   <!-- <link rel="stylesheet" href="css/styles.css"> -->
+                   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+
+<!-- <link rel="stylesheet" href="css/styles.css"> -->
+
 
     <link rel="stylesheet" href="./css/main.min.css" />
 
               <title>WebStudio</title>
 </head>
 <body>
-    <!---Навігація-->
+    <!---header-->
   <header class="header">
-               <div class="container flex">
+               <div class="container header__nav">
               
             <a href="./index.html" class="logo ">
                 Web<span class="logo-text">Studio</span>
@@ -165,7 +168,7 @@
                         </svg>
                     </div>
       <h3 class="benefits__title">Планування</h3>
-          <p class="benefits_text">Так само консультація з широким активом значною мірою зумовлює.</p>
+          <p class="benefits__text">Так само консультація з широким активом значною мірою зумовлює.</p>
                 </li>
                 <li class="benefits__item">
                     <div class="benefits__box" aria-label="переваги">
@@ -183,7 +186,7 @@
         
         <section class="section">
             <div class="container">
-            <h2 class="work__title">  Чим ми займаємося   </h2> 
+            <h2 class="works__title">  Чим ми займаємося   </h2> 
      <ul class="works__list ">
         <li class="works__item"><img src="./img/box-1.jpg" alt="планшет, клавіатура, процесс розробки"
                    width="370">
@@ -490,12 +493,14 @@
          <form class="footer__form">
            <label>
             <input
-                class="footer__field"  type="email"  name="subscribe-email"  placeholder="E-mail" />
+                class="footer__field"  type="email"  name="subscribe-email"  placeholder="E-mail" required/>
           </label>
-          <button class="footer_button" type="submit">Підписатися <svg class="footer_icon">
+          <button class="footer__button" type="submit">
+            Підписатися
+            <svg class="footer__icon">
               <use href="./img/icons.svg#icon-paper-plane" width="24" height="24"></use>
             </svg>
-           </button>
+          </button>
           </form>
         </div>
     </div>

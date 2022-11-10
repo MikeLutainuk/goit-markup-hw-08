@@ -64,6 +64,7 @@ textarea
       
     }
 
+/* main */
 .main {
 
   padding-top: 200px;
@@ -91,46 +92,21 @@ textarea
    
   }
 
-  .container {
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
   
-    }
-   .section
-    {
-      padding-top: 94px;
-      padding-bottom: 94px;
-    }
-  
-    .section--cutted {
-      padding-bottom: 0;
-  }
- 
-  .visually_hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
-  /* HEADER */
+  /* header */
   .header {
     border-bottom: 1px solid var(--color-border);
- 
-   
     }
- .flex
+
+
+ .header__nav
   {display: flex;
     align-items: center; }
 
+
+
+
+    /* commons */
   .logo {
     color: var(--color-hover);
     font-family: var(--font-family-logo);
@@ -144,9 +120,64 @@ textarea
       .logo-text {
         color: var(--color-logo); }
      
-  
+        .logo__text--inverse {
+          color: var(--color-hero);}
+      
+          .container {
+            width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 15px;
+            padding-right: 15px;
+          
+            }
+           .section
+            {
+              padding-top: 94px;
+              padding-bottom: 94px;
+            }
+          
+            .section--cutted {
+              padding-bottom: 0;
+          }
+         
+          .visually_hidden {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            border: 0;
+            padding: 0;
+            white-space: nowrap;
+            clip-path: inset(100%);
+            clip: rect(0 0 0 0);
+            overflow: hidden;
+          }
 
-/* лінія */
+
+          .button {
+            color: var(--color-hero);
+            background-color: var(--color-hover);
+            font-family: var(--font-family-brand);
+            padding: 10px 32px;
+            line-height: 1.88;
+            letter-spacing: 0.06em;
+            cursor: pointer;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            border: 1px solid var(--color-hover);
+            border-radius: 4px;
+          margin-top: 30px;
+          font-weight: 700;
+          font-size: 16px;
+        
+        
+          transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+        
+          .button:hover {
+            background: var(--color-hover-hero-btn);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);}
+        
+/* nav */
         .nav__link--current::after {
         content: '';
         position: absolute;
@@ -269,34 +300,6 @@ textarea
      
 
   
-  
-  /* HERO */
-
-  
-  .button {
-    color: var(--color-hero);
-    background-color: var(--color-hover);
-    font-family: var(--font-family-brand);
-    padding: 10px 32px;
-    line-height: 1.88;
-    letter-spacing: 0.06em;
-    cursor: pointer;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border: 1px solid var(--color-hover);
-    border-radius: 4px;
-  margin-top: 30px;
-  font-weight: 700;
-  font-size: 16px;
-
-
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
-
-  .button:hover {
-    background: var(--color-hover-hero-btn);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);}
-
-
-
 
 /* Modal */
 
@@ -630,7 +633,7 @@ textarea
    width: 270px;
   }
   
-  /* WORK */
+  /* WORKS */
  
 
   
@@ -673,6 +676,17 @@ textarea
     text-transform: uppercase;
 }
 
+.works__title
+{
+  color: var(--color-heading);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+ margin-bottom: 50px;
+  
+}
+
 .section--bg
 {
   background-color: #f5f4fa;
@@ -688,16 +702,7 @@ textarea
 margin-bottom: 50px;
   }
 
-  .work__title
-  {
-    color: var(--color-heading);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-   margin-bottom: 50px;
-    
-  }
+ 
 
     .hidden1
   {font-size: 0;}
@@ -745,7 +750,7 @@ line-height: 1.18;
    color: var(--color-text);
   }
 
-
+/* commons */
   .social {
     display: flex;
     flex-wrap: nowrap;
@@ -918,7 +923,7 @@ line-height: 1.18;
     position: absolute;
     top: 0;
 
-    /* opacity: 0.8;      а воно не теж саме що нижче,? використовувати прозорий синій колір чи цю функцію ??? */
+ 
     background-color: var(--project-description-color);  
 
     width: 100%;
@@ -991,9 +996,7 @@ line-height: 1.18;
   }
 
   
-  .logo__text--inverse {
-    color: var(--color-hero);}
-
+ 
   .footer__link {
     color: var(--color-address);
     font-size: 14px;
@@ -1034,12 +1037,12 @@ margin-bottom: 9px;
         line-height: 1.14;
         text-transform: uppercase; }
          
-        .networks {
-          display: flex;
-          gap: 10px;}
-
           .footer__join .network__links {
             background-color: var(--grey-networks-color);}
+
+            .networks {
+              display: flex;
+              gap: 10px;}
 
             .network__links {
               display: flex;
@@ -1102,7 +1105,7 @@ margin-bottom: 9px;
   color: var(--grey-networks-color);    
 }
 
-.footer_button {
+.footer__button {
   display: flex;
   width: 200px;
   height: 50px;
@@ -1127,12 +1130,12 @@ margin-bottom: 9px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer_icon {
+.footer__icon {
   display: flex;
   fill: var(--color-border);
   height: 24px; 
 }
 
-.footer_button:hover, .footer_button:focus {
+.footer__button:hover, .footer__button:focus {
   background-color: var(--color-hover-hero-btn);
 }
