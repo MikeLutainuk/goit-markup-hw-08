@@ -1,4 +1,6 @@
-.footer {
+
+
+  .footer {
     padding: 60px 0;
     background-color: $bg-color-footer;
      }
@@ -44,6 +46,9 @@ margin-bottom: 9px;
     line-height: 1.71;}
 
 
+     
+
+
     .footer__join {
       margin-left: 70px;
       padding-top: 12px;}
@@ -60,67 +65,66 @@ margin-bottom: 9px;
           .footer__join .network__links {
             background-color: $grey-networks-color;}
 
+
             
     .footer__subscription { 
-      margin-left: auto;
-      padding-top: 12px;
+        margin-left: auto;
+        padding-top: 12px;
+    }
+  
+    .footer__form {
+      display: flex;
+      gap: 12px;
   }
-
-  .footer__form {
+  
+  .footer__form input::placeholder {
+    color: $color-border;
+  }
+  
+  .footer__field {
     display: flex;
-    gap: 12px;
-}
-
-.footer__form input::placeholder {
-  color: $color-border
-}
-
-.footer__field {
-  display: flex;
-  width: 358px;
-  height: 50px;  
-  padding-left: 16px;
+    width: 358px;
+    height: 50px;  
+    padding-left: 16px;
+    
+    border-radius: 4px;
+    border: 1px solid $background-content;
+    background-color: $color-heading;
   
-  border-radius: 4px;
-  border: 1px solid $background-content;
-  background-color: $color-heading;
-
-  color: $grey-networks-color;    
-}
-
-.footer__button {
-  display: flex;
-  width: 200px;
-  height: 50px;
-  gap: 10px;
-  padding-left: 29px;
-  justify-content: center;
-  align-items: center;
-
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-
-  background-color: $color-hover;
-  color: $bg-color-team;
-
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
+    color: $grey-networks-color;    
+  }
   
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  .footer__button {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    gap: 10px;
+    padding-left: 29px;
+    justify-content: center;
+    align-items: center;
   
-}
-
-.footer__icon {
-  display: flex;
-  fill: $color-border-secondary;
-  height: 24px; 
-}
-
-.footer__button:hover, .footer__button:focus {
-  background-color: $color-hover-hero-btn;
-}
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  
+    background-color: $color-hover;
+    color: $bg-color-team;
+  
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .footer__icon {
+    display: flex;
+    fill: $color-border;
+    height: 24px; 
+  }
+  
+  .footer__button:hover, .footer__button:focus {
+    background-color: $color-hover-hero-btn;
+  }

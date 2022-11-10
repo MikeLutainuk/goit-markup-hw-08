@@ -15,6 +15,146 @@
   font-size: 0;
 }
 
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+html {
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+     tab-size: 4;
+}
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+hr {
+  height: 0;
+  color: inherit;
+}
+
+abbr[title] {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 1em;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+table {
+  text-indent: 0;
+  border-color: inherit;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+[type=button],
+[type=reset],
+[type=submit],
+button {
+  -webkit-appearance: button;
+}
+
+::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+legend {
+  padding: 0;
+}
+
+progress {
+  vertical-align: baseline;
+}
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+summary {
+  display: list-item;
+}
+
 body {
   color: #212121;
   font-family: "Roboto", sans-serif;
@@ -139,7 +279,7 @@ ul {
 }
 
 .network__icon {
-  fill: #FFF;
+  fill: #fff;
 }
 
 .network__icon {
@@ -603,8 +743,8 @@ ul {
   padding-top: 27px;
   padding-bottom: 27px;
   text-align: center;
-  color: var(--color-hero);
-  background-color: var(--background-transparent-color);
+  color: #fff;
+  background-color: rgba(47, 48, 58, 0.8);
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -613,7 +753,7 @@ ul {
 }
 
 .works__title {
-  color: var(--color-heading);
+  color: #212121;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -622,7 +762,7 @@ ul {
 }
 
 .team__main {
-  color: var(--color-heading);
+  color: #212121;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -633,7 +773,7 @@ ul {
 .team__list {
   display: flex;
   justify-content: space-between;
-  background-color: var(--bg-color-team);
+  background-color: #f5f4fa;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
@@ -646,14 +786,14 @@ ul {
 }
 
 .team__item {
-  background: #ffffff;
+  background: #fff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   width: 270px;
 }
 
 .team__title {
-  color: var(--color-heading);
+  color: #212121;
   font-weight: 500;
   font-family: "Roboto";
   font-size: 16px;
@@ -663,7 +803,7 @@ ul {
 .team__text {
   font-size: 16px;
   line-height: 1.86;
-  color: var(--color-text);
+  color: #757575;
 }
 
 .customers_title {
@@ -698,12 +838,12 @@ ul {
 
 .customers__link:hover,
 .customers__link:focus {
-  border-color: #2196f3;
+  border-color: rgba(33, 150, 243, 0.9);
 }
 
 .customers__link:hover .customers__icon,
 .customers__link:focus .customers__icon {
-  fill: #2196f3;
+  fill: rgba(33, 150, 243, 0.9);
 }
 
 .footer {
@@ -754,7 +894,6 @@ ul {
   line-height: 1.71;
 }
 
-/* join   */
 .footer__join {
   margin-left: 70px;
   padding-top: 12px;
@@ -829,7 +968,7 @@ ul {
 
 .footer__icon {
   display: flex;
-  fill: var(--color-border);
+  fill: #ececec;
   height: 24px;
 }
 
@@ -887,7 +1026,7 @@ ul {
 .projects__item:hover,
 .projects__item:focus {
   box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.12), 0px 0px 1px rgba(0, 0, 0, 0.14), 1px 1px 1px rgba(0, 0, 0, 0.2);
-  border-color: 2px solid #757575;
+  border-color: 2px solid #ececec;
 }
 
 .projects__pictures {
@@ -944,7 +1083,6 @@ ul {
 
 .projects__text {
   padding: 20px 24px;
-  border: 1px solid var(--border-prt);
 }
 
 .social {
@@ -974,10 +1112,10 @@ ul {
 }
 
 .social__link:hover, .social__link:focus {
-  background-color: var(--color-hover);
-  border-color: var(--color-hover);
+  background-color: rgba(33, 150, 243, 0.9);
+  border-color: rgba(33, 150, 243, 0.9);
 }
 
 .social__link:hover .social__icon {
-  fill: whitesmoke;
+  fill: #f5f4fa;
 }/*# sourceMappingURL=main.css.map */

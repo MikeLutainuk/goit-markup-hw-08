@@ -28,8 +28,8 @@
   }
   
   .social__link:hover, .social__link:focus {
-    background-color: $color-hover;
-    border-color: $color-hover;}
+    background-color: $project-description-color;
+    border-color: $project-description-color;}
   
   .social__link:hover .social__icon {
     fill: $bg-color-team; }

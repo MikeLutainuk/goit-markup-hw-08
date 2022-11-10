@@ -32,9 +32,9 @@
 
   .customers__link:hover,
 .customers__link:focus {
-    border-color: $color-hover;}
+    border-color: $project-description-color;}
 
     .customers__link:hover .customers__icon, 
 .customers__link:focus .customers__icon {
-    fill: $color-hover;
+    fill: $project-description-color;
 }
