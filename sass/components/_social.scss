@@ -34,3 +34,39 @@
   .social__link:hover .social__icon {
     fill: $bg-color-team; }
     
+
+
+    .networks {
+      display: flex;
+      gap: 10px;}
+
+    .network__links {
+      display: flex;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+       fill 250ms cubic-bezier(0.4, 0, 0.2, 1); }
+
+       .network__icon {
+        fill: $color-hero; }
+
+    .network__icon {
+      margin: auto;
+      width: 22px;
+      height: 22px;}
+
+    
+
+        .network__links:hover,
+        .network__links:focus {
+   color: $color-hover;}
+
+
+   .network__links:hover,
+        .network__links:focus {
+   background-color: $color-hover;}
+
+   .network__links:hover .network__icon, 
+.network__links:focus .network__icon {
+fill: $color-hero;}
