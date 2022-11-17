@@ -47,10 +47,10 @@
 }
 
 .mobile-nav__link--current {
-    color: $accent-color;
+    color: $color-hover;
 
     &:visited {
-        color: $accent-color;
+        color: $color-hover;
     }
 }
 
@@ -62,14 +62,14 @@
 .mobile-contacts__link {
     font-size: 34px;
 
-    color: $accent-color;
+    color: $color-hover;
 }
 
 .mobile-contacts__link--mail {
     font-size: 24px;
     line-height: 1.17;
 
-    color: $primary-text-color;
+    color: $color-text;
 
 }
 
@@ -84,7 +84,7 @@
     font-size: 18px;
     line-height: 1.22;
 
-    color: $accent-color;
+    color: $color-hover;
 
 }
 

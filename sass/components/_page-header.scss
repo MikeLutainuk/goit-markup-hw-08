@@ -4,7 +4,7 @@
    position: relative;
 
    display: flex;
-   border-bottom: 1px solid $line-color;
+   border-bottom: 1px solid $color-border;
    height: 60px;
    justify-content: baseline;
 
@@ -43,7 +43,7 @@
 
    &:hover,
    &:focus {
-     fill: $accent-color;
+     fill: $color-hover;
    }
  }
 
