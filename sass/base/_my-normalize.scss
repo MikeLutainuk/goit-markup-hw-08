@@ -23,9 +23,13 @@ textarea
   .list {
       list-style: none;}
 
-    .img {
-      display: block;
-     }
+    img {
+    
+          display: block;
+            width: 100%;
+            height: auto;
+          }
+     
   
      a {
       text-decoration: none;

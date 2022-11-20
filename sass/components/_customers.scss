@@ -1,15 +1,25 @@
 .customers_title {
-    margin: 0 auto 50px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
+  margin: 0 auto 30px;
+  
     color: $color-heading;
-    text-align: center;} 
-
+  
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.18;
+    text-align: center;
+  
+    @media screen and (min-width: 1200px) {
+      margin-bottom: 50px;
+      font-size: 36px;
+      line-height: 1.17;
+    }
+  
+  }
     .customers {
       display: flex;
       gap: 30px;
-      
+      flex-wrap: wrap;
+      justify-content: center;
   }
 
   .customers__link {
