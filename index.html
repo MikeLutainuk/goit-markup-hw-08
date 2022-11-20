@@ -24,7 +24,7 @@
 </head>
 <body>
     <!---header-->
-  <header class="page-header">
+  <header class="header">
                <div class="container header__nav">
               
             <a href="./index.html" class="logo ">
@@ -79,33 +79,36 @@
  </div>
 
 
-            <nav class="nav">
+          <nav class="nav">
             <ul class="nav__list ">
-                <li class="nav__item"><a class="nav__link nav__link--current" href="./index.html" >Студія</a></li>
-                <li class="nav__item"><a class="nav__link"  href="./portfolio.html" >Портфоліо</a></li>
-                <li class="nav__item"><a class="nav__link" href="" >Контакти</a></li>
+              <li class="nav__item"><a class="nav__link nav__link--current" href="./index.html">Студія</a></li>
+              <li class="nav__item"><a class="nav__link" href="./portfolio.html">Портфоліо</a></li>
+              <li class="nav__item"><a class="nav__link" href="">Контакти</a></li>
             </ul>
-        </nav>
-
-              <ul class="contacts">
-               <li class="contacts__item">
-                <a class="contacts__link" href="mailto:info@devstudio.com">
+          </nav>
+          <ul class="contacts">
+          
+            <li class="contacts__item">
+              <a class="contacts__link" href="mailto:info@devstudio.com">
                 <svg class="contacts__icon mail" width="16" height="12">
-                <use href="./img/icons.svg#icon-mail"></use>
-              </svg>
-              <span>info@devstudio.com</span></a></li>
-
-
-
-               <li class="contacts__item"> 
-                <a href="tel:+380961111111" class="contacts__link ">
+                  <use href="./img/icons.svg#icon-mail"></use>
+                </svg>
+                <span>info@devstudio.com</span></a>
+            </li>
+          
+          
+          
+          
+            <li class="contacts__item">
+              <a href="tel:+380961111111" class="contacts__link ">
                 <svg class="contacts__icon tel" width="10" height="16">
-                           <use href="./img/icons.svg#icon-tel"></use>
-                              </svg>
-                <span>+38 096 111 11 11</span></a></li>
-        </ul>
-    
-           </div>
+                  <use href="./img/icons.svg#icon-tel"></use>
+                </svg>
+                <span>+38 096 111 11 11</span></a>
+            </li>
+          </ul>
+          
+          </div>
  </header>
  <main>
             <!-- титулка -->
@@ -193,7 +196,7 @@
                 <li class="benefits__item ">
                     <div class="benefits__box" aria-label="переваги">
                         <svg class="benefits__icon">
-                            <use href="./img/icons.svg#icon-antenna"></use>
+                            <use href="./img/icons.svg#icon-antenna" ></use>
                         </svg>
                     </div>
              <h3 class="benefits__title">Увага до деталей</h3>
@@ -234,7 +237,7 @@
         
         <section class="section section--dissap">
             <div class="container">
-            <h2 class="works__title">  Чим ми займаємося   </h2> 
+            <h2 class="section__title works__title">  Чим ми займаємося   </h2> 
      <ul class="works__list ">
         <li class="works__item"><img src="./img/box-1.jpg" alt="планшет, клавіатура, процесс розробки"
                    width="370">
@@ -254,10 +257,18 @@
         <!--Команда-->
         <section class="section section--bg">
             <div class="container">
-            <h2 class="team__main">       Наша команда         </h2>
+            <h2 class="team__main section__title">       Наша команда         </h2>
             <ul class="team__list ">
                 <li class="team__item">
-             <img src="./img/box-4.jpg" alt="команда" class="team__img" width="270">
+                     <img class="team__img" srcset="
+                        ./img/img-igor-270.jpg      270w,
+                          ./img/img-igor-540@2x.jpg   540w,
+                             ./img/img-igor-810@3x.jpg   810w,
+                            ./img/img-igor-1080@4x.jpg 1080w
+                  " sizes="(min-width: 1200px) 25vw, (min-width: 768px) 50vw, (min-width: 480px) 100vw"
+    src="./img/img-igor-270.jpg" alt="Ігор Дем'яненко"
+
+              >
              <div class="team__desc">
          <h3 class="team__title">Ігор Дем'яненко</h3>
         <p class="team__text">Product Designer</p>

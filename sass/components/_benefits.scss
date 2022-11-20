@@ -11,17 +11,48 @@
     margin-bottom: 30px;
     background-color: $bg-color-team;
     border-radius: 4px;
+
+    
 }
 .benefits__item
 {
-  width: 270px;
-}
+ 
+
+
+  margin-bottom: 30px;
+  
+    @media screen and (min-width: 768px) {
+      width: 354px;
+      margin-bottom: 0;
+    }
+  
+    @media screen and (min-width: 1200px) {
+      width: 270px;
+    }
+  
+    &:last-child {
+      margin-bottom: 0;
+    }
+  
+  }
+
 
   .benefits
-  { display: flex;
-    font-family: "Roboto";
+  {
+    @media screen and (min-width: 768px){
+    display: flex;
+    flex-wrap: wrap;
+    // font-family: "Roboto";
   justify-content: space-between;
-   }
+   
+    
+     
+      
+    }
+  }
+
+
+   
   
   .benefits__title {
     color: $color-heading;
@@ -29,7 +60,14 @@
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase; 
-  margin-bottom: 10px; }
+  margin-bottom: 10px; 
+
+  text-align: center;
+  margin: 0 auto 10px;
+    @media screen and (min-width: 768px) {
+      text-align: left;
+    }
+  }
 
   .benefits__text {
     font-weight: 400;

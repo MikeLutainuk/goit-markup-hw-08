@@ -23,8 +23,8 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
     
   }
-&:hover,
-&:focus {
+    .customers__link:hover,
+        .customers__link:focus {
     border-color: $color-hover;}
   
 

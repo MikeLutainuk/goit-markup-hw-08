@@ -1,11 +1,15 @@
 .works__list
   {
+@media screen and (min-width: 768px){
+
+
     font-size: 14px;
     line-height: 1.14;
       
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between ;}
-
+  }
 
 .works__item
 {
@@ -35,7 +39,11 @@
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
+    @media screen and (min-width: 1200px) {
+        display: block;
+      }
+    }
+
 
 .works__title
 {
