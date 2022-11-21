@@ -469,13 +469,10 @@ body.menu-button {
 }
 
 .contacts {
-  font-family: "Roboto";
   display: none;
+  flex-direction: column;
   margin-left: auto;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  align-items: center;
 }
 @media screen and (min-width: 768px) {
   .contacts {
@@ -485,12 +482,29 @@ body.menu-button {
 @media screen and (min-width: 1200px) {
   .contacts {
     display: flex;
-    font-size: 14px;
   }
 }
 
-.contacts li + li {
-  margin-left: 50px;
+.contacts__list {
+  display: block;
+  gap: 10px;
+  justify-content: flex-end;
+}
+@media screen and (min-width: 1200px) {
+  .contacts__list {
+    display: flex;
+    gap: 30px;
+  }
+}
+
+.contacts__item {
+  margin-bottom: 10px;
+  display: flex;
+}
+@media screen and (min-width: 1200px) {
+  .contacts__item {
+    margin-bottom: 0;
+  }
 }
 
 .contacts__link {
