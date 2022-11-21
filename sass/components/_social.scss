@@ -1,11 +1,13 @@
 .social {
     display: flex;
-    // flex-wrap: nowrap;
-    justify-content: space-between;
+   
+    justify-content: center;
+gap: 10px;
+
     // margin-left: 30px;
     // margin-right: 30px;
-    // margin:auto;
-    margin-top: 16px;;
+  
+    // margin-top: 16px;;
   }
   
   .social__icon
@@ -64,8 +66,8 @@
 
     .network__icon {
       margin: auto;
-      // width: 22px;
-      // height: 22px;
+      width: 22px;
+      height: 22px;
 
         .network__links:hover, &,
         .network__links:focus & {
