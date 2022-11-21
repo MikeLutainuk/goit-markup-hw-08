@@ -5,6 +5,19 @@
     background-color: $bg-color-footer;
      }
 
+         .logo__footer
+
+         {color: $color-hover;
+          font-family: $font-family-logo;
+          font-weight: 700;
+          font-size: 26px;
+          font-family: 'Raleway';
+          line-height: 1.14;
+          // padding-top: 24px;
+          margin-bottom:  24px;
+
+         }
+
      .footer__flex
      {
        display: flex;
@@ -47,8 +60,8 @@
           }
         }
 
-  .footer__address
-  {margin-top: 20px;
+  .footer__address{
+    // margin-top: 20px;
 font-style: normal;
 text-align: center;
 
@@ -62,7 +75,7 @@ text-align: center;
   .footer__list
   {
     display: block;
-    padding: 0 0;
+    // padding: 0 0;
   }
 
   

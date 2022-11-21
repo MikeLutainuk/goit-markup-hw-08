@@ -469,13 +469,11 @@ body.menu-button {
 }
 
 .contacts {
-  padding-top: 13px;
-  padding-bottom: 15px;
   font-family: "Roboto";
   display: none;
   margin-left: auto;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -487,6 +485,7 @@ body.menu-button {
 @media screen and (min-width: 1200px) {
   .contacts {
     display: flex;
+    font-size: 14px;
   }
 }
 
@@ -546,7 +545,6 @@ body.menu-button {
   background-position: center;
   background-repeat: no-repeat;
   max-width: 1600px;
-  height: 600px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -985,7 +983,7 @@ body.menu-button {
 .team__desc {
   display: block;
   text-align: center;
-  padding: 30px 0;
+  padding: 30px 32px 24px;
 }
 
 .team__item {
@@ -1072,6 +1070,16 @@ body.menu-button {
   background-color: #2f303a;
 }
 
+.logo__footer {
+  color: #2196f3;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  font-family: "Raleway";
+  line-height: 1.14;
+  margin-bottom: 24px;
+}
+
 .footer__flex {
   display: flex;
   flex-direction: column;
@@ -1113,7 +1121,6 @@ body.menu-button {
 }
 
 .footer__address {
-  margin-top: 20px;
   font-style: normal;
   text-align: center;
 }
@@ -1125,7 +1132,6 @@ body.menu-button {
 
 .footer__list {
   display: block;
-  padding: 0 0;
 }
 
 .footer__link {
@@ -1396,10 +1402,7 @@ body.menu-button {
 
 .social {
   display: flex;
-  flex-wrap: nowrap;
   justify-content: space-between;
-  margin-left: 30px;
-  margin-right: 30px;
   margin-top: 16px;
 }
 
@@ -1451,8 +1454,6 @@ body.menu-button {
 
 .network__icon {
   margin: auto;
-  width: 22px;
-  height: 22px;
 }
 .network__icon .network__links:hover, .network__icon, .network__links:focus .network__icon {
   fill: #fff;
