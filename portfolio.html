@@ -308,7 +308,11 @@
             <li class="projects__item">
               <a href="" class="projects__link">
                 <div class="projects__pictures">
-                <img src="./img/img-09.jpg" alt="ноут" class="project_img" width="370">
+                <img class="projects__img" srcset="
+                                      ./img/portfolio-09-laptop.jpg        450w,
+                                      ./img/portfolio-09-laptop-900@2x.jpg 900w
+                                    " sizes="(min-width: 1200px) 33vw, (min-width: 768px) 50vw, (min-width: 480px) 100vw"
+                  src="./img/portfolio-09-laptop.jpg" alt="Руки друкують на ноутбуці" />
                 <p class="projects__description">
                   Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                    Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
